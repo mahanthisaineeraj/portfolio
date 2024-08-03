@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark"><!-- @step1 -->
+        <a class="navbar-brand" href="#">
+            <!-- @step2 -->
+            <h1 class="portfolio-icon-heading">Portfolio</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- @step4(adding marginleft as ml-auto) -->
+          <div class="navbar-nav ml-auto">
+            <!-- @step3(id) -->
+            <a class="nav-link active " href="#home" id="navbar-Item1">
+                <!-- @step2 -->
+                Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <!-- @step3(id) -->
+            <a class="nav-link ml-3" href="#aboutme" id="navbar-Item2"><!-- @step2 -->About me</a>
+            <!-- @step3(id) -->
+            <a class="nav-link ml-3" href="#skills" id="navbar-Item3"><!-- @step2 -->Skills</a>
+            <!-- @step3(id) -->
+            <a class="nav-link ml-3" href="#services" id="navbar-Item4"><!-- @step2 -->Services</a>
+            <!-- @step3(id) -->
+            <a class="nav-link ml-3 mr-3" href="#contactme" id="navbar-Item5"><!-- @step2 -->Contact me</a>
+          </div>
+        </div>
+      </nav>
+    <div class="banner-section-container" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 banner-section-content">
+                    <h1 class="name-styles">Hey, I am 
+                        <span class="myname-highlight">Sai Neeraj</span>
+                    </h1>
+                    <p class="Frontenddeveloper-styles">I am a Frontend Developer.</p>
+                    <button class="btn btn-primary">
+                        <a href="#contactme" style="color: white;">Conatct me</a>
+                    </button>
+                </div>
+                <div class="col-5">
+                    <img src="myimage.jpg" class="myimage-styles"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="About-me-section" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <h1 class="about-me-heading-styles col-12">About Me</h1>
+                <p class="about-me-para col-12">My name is Sai Neeraj, and I am currently looking for a job in Frontend Development.
+                    I have 3 years of experience working as a Frontend Developer.
+                    I have a bachelor's degree In  and Computer Science.
+                    People find me to be an upbeat, self-motivated team player with excellent communication skills.</p>
+                <p class="about-me-para col-12">I am a dedicated person with a family of four.
+                    I enjoy reading, and the knowledge and perspective that my reading gives me have strengthened my teaching skills and presentation abilities</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="skills-section-container" id="skills">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 skills-heading-styles">Skills</h1>
+                <div class="col-2 skill-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skill-image-styles"/>
+                    <h1 class="skill-heading-styles">HTML</h1>
+                </div>
+
+                <div class="col-2 skill-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-image-styles"/>
+                    <h1 class="skill-heading-styles">CSS</h1>
+                </div>
+
+                <div class="col-2 skill-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skill-image-styles"/>
+                    <h1 class="skill-heading-styles">BOOTSTRAP</h1>
+                </div>
+
+                <div class="col-2 skill-items bg-dark">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skill-image-styles"/>
+                    <h1 class="skill-heading-styles">JAVA SCRIPT</h1>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="services-section" id="services">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 services-heading-styles">Sevices</h1>
+                <h1 class="col-12 whatido">What I do</h1>
+                <div class="col-3 whatido-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="whatido-image"/>
+                    <h1 class="whatido-heading">Static Websites</h1>
+                    <p class="whatido-para">A Static Website contains Web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                </div>
+
+                <div class="col-4 whatido-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="whatido-image"/>
+                    <h1 class="whatido-heading">Responsive Web design</h1>
+                    <p class="whatido-para">Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size, platform and orientation.</p>
+                </div>
+
+                <div class="col-3 whatido-items bg-dark mr-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="whatido-image"/>
+                    <h1 class="whatido-heading">Customisable Layouts</h1>
+                    <p class="whatido-para">Customisable sites are templates with set layouts. You may be able to change photos and colors, but your site will look similar to many other sites due to the template. The same goes for...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-website-footer-section d-flex flex-row justify-content-centre" id="contactme">
+        <div class="container">
+            <div class="row">
+                <hr class="col-12 line"/>
+                <div class="col-md-2 mt-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7yatRJZSQmrAqUX09TFc6MFme2FgH_dRFg&s" class="portfolio-website-footer-section-image" />
+                </div>
+                <div class="col-md-2 mt-5 mt-md-5">
+                    <h1 class="portfolio-website-footer-section-heading">Sai Neeraj</h1>
+                    <p class="portfolio-website-footer-section-para">Frontend Developer</p>
+                </div>
+                <div class="col-md-2 mt-md-5">
+                    <h1 class="portfolio-website-footer-section-heading">Phone NO.</h1>
+                    <p class="portfolio-website-footer-section-para"><i class="fa-solid fa-phone mr-3"></i>9876543210</p>
+                </div>
+                <div class="col-md-2 mt-md-5 ml-0">
+                    <h1 class="portfolio-website-footer-section-heading">E-mail</h1>
+                    <p class="portfolio-website-footer-section-para"><i class="fa-solid fa-envelope mr-3"></i>neeraj@gmail.com</p>
+                </div>
+                <div class="col-md-2 mt-md-5">
+                    <h1 class="portfolio-website-footer-section-heading">Address</h1>
+                    <p class="portfolio-website-footer-section-para"><i class="fa-solid fa-map-location-dot mr-3"></i>17 Ayur Vigyan Nagar, Andhra pradesh, India.</p>
+                </div>
+
+                <div class="portfolio-website-footer-section-last-strip w-100">
+                    <div class="col-12">
+                        <p class="portfolio-website-footer-section-para2 p-2"><i class="fa-solid fa-c mr-1 ml-3"></i><span style="font-size: 25px;">©</span> 2024 by Sai Neeraj.    Created with HTML,CSS,BOOTSTRAP.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

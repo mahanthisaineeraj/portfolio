@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.portfolio-icon-heading{
+    color: white;
+    font-size: 22px;
+}
+
+#navbar-Item1{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#navbar-Item2{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#navbar-Item3{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#navbar-Item4{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#navbar-Item5{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.banner-section-container{
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 100px;
+}
+
+.name-styles{
+    color: white;
+    font-size: 50px;
+}
+.myname-highlight{
+    color:rgb(77, 77, 226);
+}
+.Frontenddeveloper-styles{
+    color: #9aa5b1;
+    font-size: 27px;
+}
+
+.banner-section-content{
+    margin-top: 130px;
+    padding-right: 20px;
+}
+
+.myimage-styles{
+    height: 530px;
+    border-radius: 20px;
+}
+
+
+.About-me-section{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me-heading-styles{
+    color: #cced00;
+}
+
+.about-me-para{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.skills-section-container{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills-heading-styles{
+    color: #cced00;
+}
+
+.skill-items{
+    text-align: center;
+    width:100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.skill-image-styles{
+    height: 100px;
+}
+
+.skill-heading-styles{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.services-section{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.services-heading-styles{
+    color: #cced00;
+}
+
+.whatido{
+    color: white;
+    font-size: 30px;
+}
+
+.whatido-items{
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.whatido-image{
+    height: 60px;
+}
+
+.whatido-heading{
+    color: white;
+    font-size: 27px;
+    margin: 20px;
+}
+.whatido-para{
+    color: #9aa5b1;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.line{
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.portfolio-website-footer-section {
+    background-color: black;
+}
+
+.portfolio-website-footer-section-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.portfolio-website-footer-section-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.portfolio-website-footer-section-para {
+    color: #9aa5b1;
+}
+
+.portfolio-website-footer-section-para2 {
+    color: #9aa5b1;
+
+}
+
+.portfolio-website-footer-section-last-strip {
+    background-color: #001c32;
+}
